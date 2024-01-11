@@ -24,7 +24,20 @@ npm install --save-dev html-webpack-plugin
 ```
 
 ## Adicionando CSS
+Para trabalhar com estilos também compensa adicionar algumas extensões.
+- node-sass: compilador de sass para node
+- sass-loader: carrega para o webpack compilar
+- style-loader: injeta estilos na árvore de objetos (DOM)
+- css-loader: interpreta diretivas do CSS (import,..)
+- extract: extrai CSS do JS
 
+```
+npm install --save-dev node-sass sass-loader style-loader css-loader mini-css-extract-plugin
+```
+
+- Sistema de módulos
+- Gerenciamento de dependências 
+- Desenvolvimento x Produção 
 # Stack Frontend - EBAC 
 
 ## HTML - HyperText Markup Language
